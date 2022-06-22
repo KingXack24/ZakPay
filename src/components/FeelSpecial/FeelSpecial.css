@@ -1,0 +1,44 @@
+.feel-special {
+    background-color: var(--bg-red);
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+  }
+  
+  .photo-section-heading {
+    font-size: 106px;
+    font-weight: 700;
+  }
+
+  
+  .photo-section-subheading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .photo-section-description {
+   
+    font-size: 25px;
+    font-weight: 500;
+   
+  }
+
+
+
+
+  @media all and (max-width: 1279px) {
+    .feel-special {
+      background-position: center bottom;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .feel-special {
+      background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+      min-height: 1150px;
+      background-position: right center;
+    }
+  }
